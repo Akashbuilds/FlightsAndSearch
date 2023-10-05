@@ -2,7 +2,7 @@
   "name": "flightsandsearch",
   "version": "1.0.0",
   "description": "Microservice For Handling Flight CRUD",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "npx nodemon src/server.js"
   },
