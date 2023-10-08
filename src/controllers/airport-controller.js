@@ -3,7 +3,7 @@ const { AirportService } = require("../services/index");
 const airportService = new AirportService();
 
 const create = async (req, res) => {
-  try {
+  try {src/controllers/airport-controller.js
     const response = await airportService.create(req.body);
     return res.status(201).json({
       message: "Successfully created the airport",
